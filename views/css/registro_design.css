@@ -1,0 +1,110 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Helvetica";
+    font-weight: normal;
+}
+
+
+.registro input[type=text],input[type=email], input[type=password]{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.registro input[type=file]{
+    margin-top: 6px;
+}
+
+
+input[type=submit]{
+    background-color: #3282DC;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-right: 15px;
+    margin-top: 1em;
+    float: left;
+}
+
+input[type=reset] {
+    background-color: darkgrey;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 40em;
+}
+
+
+input[type=submit]:hover{
+    background-color: #2B71C2;
+}
+
+.registro {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3em auto 3em;
+    grid-template-rows: 5.2em 2em auto 5em;
+}
+
+
+.grid-container .header_grid {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+
+
+.grid-container .formulario {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #373636;
+}
+
+#text{
+    color: #373636;
+}
+
+
+#foto_perfil{
+    width: 100%;
+    height: 100%;
+}
+
+#image-cropper {
+    width: 4em;
+    height: 4em;
+
+    overflow: hidden;
+    border-radius: 50%;
+}

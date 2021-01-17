@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "FilmsNet"
+AuthUserFile /home/TDIW/tdiw-i5/public_html/.htpasswd
+Require valid-user

@@ -1,0 +1,94 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Helvetica";
+    font-weight: normal;
+}
+
+.title, a{
+    text-decoration:none;
+    color: #95989A;
+}
+
+
+#info_pelicula{
+    z-index: 10;
+    position:absolute;
+    height: 100%;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3em 30fr 10fr 3em;
+    grid-template-rows: 5.4em 2em auto 2em auto 5em;
+}
+
+
+.grid-container .header_grid {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 1;
+}
+
+.title_section{
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #373636;
+    padding-bottom: 0.8em;
+    margin-bottom: 1em;
+}
+
+.grid-container #peliculas_estreno {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3;
+}
+
+
+.films_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: bottom;
+
+}
+
+.films_container .title{
+    margin-top: 0.5em;
+    font-weight: normal;
+    font-size: 0.8em;
+    width: 10em
+}
+
+.films_container img{
+    height: 13em
+
+}
+
+.films_container div{
+    margin-right: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+/*Reacciona al pasar el ratón por una de las peliculas (caratula o título)*/
+.films_container div:hover a{
+    color: #373636;
+}
+
+
+#mensaje{
+    font-weight: normal;
+    font-size: 1em;
+    color: #373636;
+    padding-bottom: 0.8em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
