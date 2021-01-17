@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Helvetica";
+	font-weight: normal;
+}
+
+a{
+	text-decoration:none;
+	color: #95989A;
+}
+
+.title_section{
+	font-weight: normal;
+	font-size: 1.5em;
+	color: #373636;
+	padding-bottom: 0.8em;
+}
+
+
+.films_container{ 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	justify-content: left; 
+	align-items: bottom;
+
+}
+
+.films_container .title{
+	margin-top: 0.5em;
+	font-weight: normal;
+	font-size: 0.8em;
+	width: 10em
+}
+
+.films_container img{
+	height: 13em
+
+}
+
+.films_container div{
+	margin-right: 0.8em;
+    margin-bottom: 1.3em;
+}
+
+/*Reacciona al pasar el ratón por una de las peliculas (caratula o título)*/
+.films_container div:hover a{
+	color: #373636;
+}
+
+

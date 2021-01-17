@@ -1,0 +1,43 @@
+
+
+
+.grid-product {
+    display: grid;
+    grid-template-columns: 6.5em 1em auto ;
+    grid-template-rows: auto;
+    position: relative;
+}
+
+
+.grid-product #poster {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-product #poster img{
+    height: auto;
+    width: 6.5em;
+}
+
+
+.grid-product #info_pelicula{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: blue;
+}
+
+#titulo_pelicula{
+margin-bottom: 1.5em;
+}
+
+#precio, #cantidad{
+margin-bottom: 1em;
+}
+
+p, h3{
+    color: black;
+}
+
+hr {
+    border: 0.01px solid lightgray;
+}

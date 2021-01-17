@@ -1,0 +1,40 @@
+
+body{
+    font-family: "Helvetica";
+    font-weight: normal;
+    color: white;
+}
+
+#summery ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    background-color: rgba(42, 42, 42, 1);
+    position: fixed;
+    bottom: 0em;
+    z-index: 100;
+}
+
+#summery ul li {
+    float: left;
+}
+
+#elemento{
+    margin-right: 2em;
+    color: white;
+    font-size: 0.95em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+
+#titulo{
+    margin-left: 2em;
+    margin-right: 3em;
+    color: white;
+    font-size: 0.95em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+

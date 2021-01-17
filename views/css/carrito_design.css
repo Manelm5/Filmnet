@@ -1,0 +1,218 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Helvetica";
+    font-weight: normal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3em auto 8em;
+    grid-template-rows: 5.2em 2em auto auto 5em;
+}
+
+
+.grid-container .header_grid {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+
+
+.grid-container #titulo_header{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid-container .contenido_carrito {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.grid-container .contenido_compras {
+    grid-column: 2;
+    grid-row: 4;
+    margin-right: 5em;
+}
+
+.grid-container #resumen_compra {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#titulo_header h1{
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #373636;
+    padding-bottom: 0.8em;
+    margin-bottom: 1em;
+}
+
+#titles_elements{
+    display:inline;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    color: #373636;
+}
+
+#finalizar{
+    float: right;
+}
+
+
+.grid-product {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr ;
+    grid-template-rows: auto;
+    position: relative;
+}
+
+
+.grid-product #poster {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+}
+
+.grid-product #titulo_pelicula {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+}
+
+.grid-product #cantidad, .grid-product #precio_final_titulo {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+}
+
+.grid-product #precio {
+    grid-column: 4;
+    grid-row: 1;
+    text-align: center;
+}
+
+.grid-product #borrar {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: center;
+}
+
+#mini-titulo{
+    margin-top: 4.2em;
+}
+
+.contenido_compras .grid-product #mini-titulo {
+    margin-top: 3.5em;
+}
+
+#terminar_pedido_button{
+    background-color: #3282DC;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    float: right;
+    margin-top: 3em;
+}
+
+
+#vaciar_carrito_button{
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    float: right;
+    margin-top: 2em;
+
+}
+
+.contenido_carrito .grid-product #poster img{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: auto;
+    width: 6em;
+}
+
+#mensaje{
+    font-weight: normal;
+    font-size: 1em;
+    color: #373636;
+    padding-bottom: 0.8em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#precio_final{
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.grid-product #precio_final_titulo{
+    text-align: right;
+    margin-bottom: 6em;
+}
+
+
+.contenido_compras .grid-product #poster img{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    height: auto;
+    width: 4.5em;
+}
+
+h3, h4{
+    color: black;
+    font-weight: normal;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    margin-left: 2.5em;
+    background-color:lightgray;
+    height: 1px;
+}
+
+
+#fecha_compra{
+    margin-bottom: 1em;
+    font-weight: normal;
+    font-size: 1em;
+    color: #373636;
+    padding-bottom: 0.9em;
+}
+
+#terminar_pedido_button:hover{
+    background-color: #2B71C2;
+}
+
+
+#borrar_button{
+    background-color: white;
+    margin-top: 4.1em;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+h6{
+    margin-left: 1em;
+}

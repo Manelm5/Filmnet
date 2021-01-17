@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  font-family: "Helvetica";
+  font-weight: normal;
+}
+
+#contenido{
+  background-color: rgba(42, 42, 42, 0.93);
+  height: 170%;
+  margin: 0;
+  overflow:hidden;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 15em 14em 2em 16em 1fr 9fr 9fr 5fr;
+  grid-auto-rows: 8.5em 3em 19em 2em auto auto;
+}
+
+.close_button_area{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.movieTitle{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row: 2;
+}
+
+.moviePoster{
+  grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.film-informationFirst{
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.film-informationSecond{
+  grid-column: 6;
+  grid-row: 3;
+}
+
+.sinopsis{
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row: 5;
+}
+.trailer{
+  grid-column: 2;
+  grid-row: 6;
+  padding-bottom: 90em;
+}
+
+
+.moviePoster img {
+  height: 22em;
+  width: auto;
+
+}
+
+.footer{
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row: 7;
+}
+
+.add_button {
+  background-color: #3282DC;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1.9em;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+input[type=button]:hover{
+  background-color: #2B71C2;
+}
+
+.close_button {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 3em;
+  position: fixed;
+}
+
+
+h1 {
+  font-weight: normal;
+  color: white;
+  margin-bottom: 1.2em;
+  font-size: 1.5em;
+}
+
+h3{
+  font-weight: normal;
+  color: white;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+
+.film-informationFirst h3{
+  margin-top: 1em;
+}
+
+.film-informationSecond h3{
+  margin-top: 1em;
+
+}
+
+.film-informationSecond h1{
+  color:#312D2D;
+}
+
+p{
+  color: #D1D1D1;
+}
+
+.sinopsis p{
+  text-align: justify;
+}
+
+
+
